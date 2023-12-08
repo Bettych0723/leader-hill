@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Design - Leader Hill Technology Limited</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LH specializes in software design and development, IT services, information security, and game art. Backed by extensive experience, we deliver a spectrum of solutions distinguished by exceptional expertise and forward-thinking approaches, tailored to fulfill the distinctive requirements of our clients.">
+  <meta name="format-detection" content="">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="author" content="">
+  <meta name="keywords" content="Software design and development, IT services, Information security, Game development, Design">
+
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="css/vendor.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+    rel="stylesheet">
+</head>
+<body data-bs-theme="dark">
+
+  <div class="preloader text-white fs-6 text-uppercase overflow-hidden"></div>
+  
+  <nav class="navbar navbar-expand-lg text-white text-uppercase fs-7 ls-1 py-5 align-items-center">
+    <div class="container-fluid">
+      <div class="row align-items-center w-100">
+        <div class="col-8 col-md-3">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.svg" width="239" height="50" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="col-1 col-md-6 d-md-flex justify-content-center">
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 gap-1 gap-md-5 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdownPages" data-bs-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Services</a>
+                  <ul class="dropdown-menu list-unstyled p-4" aria-labelledby="dropdownPages">
+                    <li>
+                      <a href="service-software.html" class="dropdown-item item-anchor">Software development</a>
+                    </li>
+                    <li>
+                      <a href="server-it-services.html" class="dropdown-item item-anchor">IT services</a>
+                    </li>
+                    <li>
+                      <a href="Information-security.html" class="dropdown-item item-anchor">Information security</a>
+                    </li>
+                    <li>
+                      <a href="game-development.html" class="dropdown-item item-anchor">Game development</a>
+                    </li>
+                    <li>
+                      <a href="design.html" class="dropdown-item item-anchor">Design</a>
+                    </li>
+                    
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="careers.html">Careers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn btn-outline-light rounded-pill" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-title mt-5 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="d-flex flex-wrap flex-column justify-content-between align-items-center mt-5">
+          <h1 class="display-5 fw-bold">Design</h1>
+          <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="index.html">Home</a>
+            <span class="breadcrumb-item active" aria-current="page">Design</span>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="product-tabs mt-5">
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="tabs-listing">
+        <nav>
+          <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+            <button class="nav-link active text-uppercase px-5 py-3" id="nav-home-tab" data-bs-toggle="tab"
+              data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+              aria-selected="true">3D character</button>
+
+            <button class="nav-link text-uppercase px-5 py-3" id="nav-information-tab" data-bs-toggle="tab"
+              data-bs-target="#nav-information" type="button" role="tab" aria-controls="nav-information"
+              aria-selected="false">Game environment</button>
+
+            <button class="nav-link text-uppercase px-5 py-3" id="nav-shipping-tab" data-bs-toggle="tab"
+              data-bs-target="#nav-shipping" type="button" role="tab" aria-controls="nav-shipping"
+              aria-selected="false">Animation design</button>
+
+            <button class="nav-link text-uppercase px-5 py-3" id="nav-review-tab" data-bs-toggle="tab"
+              data-bs-target="#nav-review" type="button" role="tab" aria-controls="nav-review"
+              aria-selected="false">Visual design</button>
+
+          </div>
+        </nav>
+        <div class="container">
+        <div class="tab-content py-5" id="nav-tabContent">
+
+          <!-- 第一部分 -->
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+            <div class="row justify-content-center my-5">
+              <div class="col-md-12 text-center">
+                <h2 class="fw-bold">3D character</h2>
+                <p>We have a 3D team who worked on famous titles, a 2D team specializing in animation, and veteran effects specialists.</p>
+              </div>
+            </div>
+
+              <div class="vertical-element py-5">
+                <div class="container">
+          
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-6 order-1 order-lg-1">
+                      <div class="image-holder">
+                        <img src="images/character.jpg" class="services-img" alt="about-us">
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-6 order-2 order-lg-2">
+                      <div class="section-element p-5">
+                      <h4>Character</h4>
+                        <p>We are experts at modeling 3,000-10,000 polygons, and focus on silhouette, over all balance and texture.</p>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+          
+              <div class="vertical-element py-5">
+                <div class="container">
+          
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-6 order-2 order-lg-1 ">
+                      <div class="section-element p-5">
+                      <h4>Monster</h4>
+                        <p>We can create creatures from your imagination. Our team can support multiple style as needed by your project.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6 order-1 order-lg-2">
+                      <div class="image-holder text-right">
+                        <img src="images/monster.jpg" class="services-img" alt="about-us">
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+          
+          
+              <div class="vertical-element py-5">
+                <div class="container">
+          
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                      <div class="image-holder">
+                        <img src="images/equipment.png" class="services-img" alt="about-us">
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                      <div class="section-element p-5">
+                      <h4>Equipment / Objects</h4>
+                        <p>We are experts in modeling costumes and weapons and are skilled at creating various textural expressions and dress-up avatars.</p>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+
+
+              <div class="vertical-element">
+                <div class="container">
+                  <div class="section-header text-center mt-5">
+                    <h2 class="fw-bold">Product advantages</h2>
+                  </div>
+            <div class="container-fluid px-4 py-5" id="icon-grid">
+          
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 g-5 mb-5">
+          
+                <div class="col">
+                  <img src="images/design-efficient.png" alt="" class="me-3 mb2">
+                  <div>
+                    <h4 class="fw-bold">Efficient project management</h4>
+                    <p class="careerstext-color">We manage projects efficiently, delivering high quality art at the best value.</p>
+                  </div>
+                </div>
+          
+                <div class="col">
+                  <img src="images/design-rich.png" alt="" class="me-3 mb2">
+                  <div>
+                    <h4 class="fw-bold mb-0">Rich source of talent</h4>
+                    <p class="careerstext-color">We have great teams in each field that can provide customized services.</p>
+                  </div>
+                </div>
+          
+                
+              </div>
+          
+            </div>
+            </div>
+            </div>
+
+
+
+          </div> 
+
+          <!-- 第二部分 -->
+          <div class="tab-pane fade" id="nav-information" role="tabpanel" aria-labelledby="nav-information-tab">
+
+            <div class="row justify-content-center my-5">
+              <div class="col-md-12 text-center">
+                <h2 class="fw-bold">Game environment</h2>
+                <p>Use moderately strong and weak scenes to create a world view of the game.</p>
+              </div>
+            </div>
+
+              <div class="vertical-element py-5">
+                <div class="container">
+          
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-6 order-1 order-lg-1">
+                      <div class="image-holder">
+                        <img src="images/create.jpg" class="services-img" alt="about-us">
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-6 order-2 order-lg-2">
+                      <div class="section-element p-5">
+                      <h4>Create an immersive scene</h4>
+                        <p>To create the worldview atmosphere of the game, the feeling that "scene design" brings to players is a very important link.</p>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+          
+              <div class="vertical-element py-5">
+                <div class="container">
+          
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-6 order-2 order-lg-1">
+                      <div class="section-element p-5">
+                      <h4>Build the main elements</h4>
+                        <p><strong>World : </strong>value system, realistic vs. cartoon style, time and space environment setting, worldview etc.</p>
+                        <p><strong>Levels : </strong>scene location, primary and secondary tasks, conflict vs. resolution, tonality, enemies, plot, puzzles, traps, context etc.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6 order-1 order-lg-2">
+                      <div class="image-holder text-right">
+                        <img src="images/build.jpg" class="services-img" alt="about-us">
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+          
+          
+              <div class="vertical-element py-5">
+                <div class="container">
+          
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-6 order-1 order-lg-1">
+                      <div class="image-holder">
+                        <img src="images/integration.jpg" class="services-img" alt="about-us">
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-6 order-2 order-lg-2">
+                      <div class="section-element p-5">
+                      <h4>Integration and creation</h4>
+                        <p>Integrate front-end level design, art design and provide follow-up scene level editing support to present the best scene production services.</p>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+          </div>
+
+
+
+
+          <!-- 第三部分 -->
+          <div class="tab-pane fade" id="nav-shipping" role="tabpanel" aria-labelledby="nav-shipping-tab">
+
+            <div class="row justify-content-center my-5">
+              <div class="col-md-12 text-center">
+                <h2 class="fw-bold">Animation design</h2>
+                <p>Live 2D and Spine animation, compelling 3D action, and dynamic effects will take your visual production to the next level.</p>
+              </div>
+            </div>
+
+              <div class="vertical-element py-5">
+                <div class="container">
+          
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-6 order-1 order-lg-1">
+                      <video width="550" loop muted autoplay playsinline>
+                        <source src="video/animation-effects-2d.mp4" type="video/mp4">
+    
+                      </video>
+                    </div>
+                    
+                    <div class="col-md-6 order-2 order-lg-2 ">
+                      <div class="section-element p-5">
+                      <h4>2D animation</h4>
+                        <p>Add dynamic and engaging effects to your 2D illustrations using Live 2D and spine.</p>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+          
+              <div class="vertical-element py-5">
+                <div class="container">
+          
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-6 order-2 order-lg-1 ">
+                      <div class="section-element p-5">
+                      <h4>3D motion</h4>
+                        <p>We produce high-quality motions for human characters, animals, and monsters. Expect smooth movements for any camera angle.</p>
+                        
+                      </div>
+                    </div>
+                    <div class="col-md-6 order-1 order-lg-2">
+                      <video width="550" loop muted autoplay playsinline>
+                        <source src="video/3d animation-1.mp4" type="video/mp4">
+    
+                      </video>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+          
+          
+              <div class="vertical-element py-5">
+                <div class="container">
+          
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-6 order-1 order-lg-1">
+                      <video width="550" loop muted autoplay playsinline>
+                        <source src="video/animation-effects.mp4" type="video/mp4">
+    
+                      </video>
+                    </div>
+                    
+                    <div class="col-md-6 order-2 order-lg-2">
+                      <div class="section-element p-5">
+                      <h4>Effects</h4>
+                        <p>With our extensive experience using Unity's particle system and the effect creation tool - SPARK GEAR, we create the best visual effects with various effects tailored to your needs.</p>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+
+
+
+              <div class="vertical-element">
+                <div class="container">
+                  <div class="section-header text-center mt-5">
+                    <h2 class="fw-bold">Product advantages</h2>
+                  </div>
+            <div class="container-fluid px-4 py-5" id="icon-grid">
+          
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 g-5">
+          
+                <div class="col">
+                  <img src="images/advantages-excellent.png" alt="" class="me-3 mb2">
+                  <div>
+                    <h4 class="fw-bold">Excellent planning capability</h4>
+                    <p class="careerstext-color">Capable of producing assets from the beginning to completion.
+
+                    </p>
+                  </div>
+                </div>
+          
+                <div class="col">
+                  <img src="images/advantages-publishing.png" alt="" class="me-3 mb2">
+                  <div>
+                    <h4 class="fw-bold mb-0">Publishing support</h4>
+                    <p class="careerstext-color">Leader Hill Technology developed and published top grossing games in worldwide.</p>
+                  </div>
+                </div>
+          
+                
+              </div>
+          
+            </div>
+            </div>
+            </div>
+
+          </div>
+
+          <!-- 第四部分 -->
+          <div class="tab-pane fade" id="nav-review" role="tabpanel" aria-labelledby="nav-review-tab">
+
+            <div class="row justify-content-center my-5">
+              <div class="col-md-10 text-center">
+                <h2 class="fw-bold">Visual design</h2>
+                <p>Capturing the attention and interest of customers and potential customers is the goal . Our creative designers have worked with professionals in virtually every industry on projects that promote their business in the most eye-catching and engaging ways.</p>
+              </div>
+            </div>
+
+              <div class="vertical-element py-5">
+                <div class="container">
+          
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-6 order-1 order-lg-1">
+                      <div class="image-holder">
+                        <img src="images/Logo-design.jpg" class="services-img" alt="about-us">
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-6 order-2 order-lg-2 ">
+                      <div class="section-element p-5">
+                      <h4>Logo design</h4>
+                        <p>Your logo design is essential to your brand’s identity. A company logo is the first thing customers will see when they’re introduced to a new brand or business, so it’s important that you create a logo first and foremost. The purpose of a great logo design is to give your business an edge over your competitors and build trust with your customers. To achieve both, a logo should be memorable, simple, and unique.</p>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+          
+              <div class="vertical-element py-5">
+                <div class="container">
+          
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-6 order-2 order-lg-1 ">
+                      <div class="section-element p-5">
+                      <h4>Advertising design</h4>
+                        <p>Advertising design is the art of persuasion embedded in storytelling to capture an audience’s attention and inspire them to take a desired action. No all advertising agencies are created equal. To succeed in the highly competitive advertising industry it’s imperative that brands embrace change in consumer behavior and serve them Ads both on printed and on digital media.</p>
+                        
+                      </div>
+                    </div>
+                    <div class="col-md-6 order-1 order-lg-2">
+                      <div class="image-holder">
+                        <img src="images/advertising-design.jpg" class="services-img" alt="about-us">
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+
+              <div class="vertical-element">
+                <div class="container">
+                  <div class="section-header text-center mt-5">
+                    <h2 class="fw-bold">Product advantages</h2>
+                  </div>
+            <div class="container-fluid px-4 py-5" id="icon-grid">
+          
+              <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 g-5 mb-5">
+          
+                <div class="col">
+                  <img src="images/advantages-visual.png" alt="" class="me-3 mb2">
+                  <div>
+                    <h4 class="fw-bold">
+                      Logo design</h4>
+                    <p class="careerstext-color">We specialize in helping startup companies achieve a high level of professionalism from the start.
+
+                    </p>
+                  </div>
+                </div>
+          
+                <div class="col">
+                  <img src="images/advantages-visualcreate.png" alt="" class="me-3 mb2">
+                  <div>
+                    <h4 class="fw-bold mb-0">Create print and signage</h4>
+                    <p class="careerstext-color">New and established businesses can count on us to keep their brand look great and consistent over time.</p>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <img src="images/advantages-visualfree.png" alt="" class="me-3 mb2">
+                  <div>
+                    <h4 class="fw-bold mb-0">Free consultation</h4>
+                    <p class="careerstext-color">We provide expert insights and feedback to make sure we hit your budget, achieve your goals, and help grow your business.</p>
+                  </div>
+                </div>
+          
+                
+              </div>
+          
+            </div>
+            </div>
+            </div>
+
+          </div></div></div>
+
+  
+  <section class="newsletter bg-black">
+    <div class="container-fluid">
+      <div class="newsletter jarallax">
+        <img src="images/bg-newsletter.jpg" alt="newsletter" class="jarallax-img">
+      
+        <div class="row py-5 justify-content-center">
+          <div class="col-md-6">
+            <div class="row g-5 my-4 align-items-baseline">
+              <div class="col-md-7">
+                <h3 class="display-4 m-0 text-md-start">Protect, develop, shape the future</h3>
+              </div>
+              <div class="col-md-5">
+                <p class="fs-6 text-gray">Securing, advancing, and molding the future through innovation and robust security.</p>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+  <footer id="footer" class="bg-black">
+    <div class="container-fluid">
+      <div class="row d-flex flex-wrap justify-content-between my-5 py-5">
+        <div class="col-md-3 col-sm-6">
+          <div class="footer-menu footer-menu-001">
+            <div class="footer-intro mb-4">
+              <a href="index.html">
+                <img src="images/logo.svg" width="239" height="50" alt="logo" alt="logo">
+              </a>
+            </div>
+            <p>At Leader Hill Technology Limited, we specialize in providing cutting-edge, secure digital solutions, seamlessly integrating technology and aesthetics to create distinctive experiences. Your success is our primary objective.</p>
+           
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <div class="footer-menu footer-menu-002">
+            <h5 class="widget-title mb-4">Services</h5>
+            <ul class="menu-list list-unstyled fs-6">
+              <li class="menu-item">
+                <a href="service-software.html" class="item-anchor">Software development</a>
+              </li>
+              <li class="menu-item">
+                <a href="server-it-services.html" class="item-anchor">IT services</a>
+              </li>
+              <li class="menu-item">
+                <a href="Information-security.html" class="item-anchor">Information security</a>
+              </li>
+              <li class="menu-item">
+                <a href="game-development.html" class="item-anchor">Game development</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="item-anchor">Design</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-6">
+          <div class="footer-menu footer-menu-002">
+            <h5 class="widget-title mb-4">About</h5>
+            <ul class="menu-list list-unstyled fs-6">
+              <li class="menu-item">
+                <a href="about.html#background" class="item-anchor">Company background</a>
+              </li>
+
+              <li class="menu-item">
+                <a href="about.html#values" class="item-anchor">Company core values</a>
+              </li>
+
+              <li class="menu-item">
+                <a href="about.html#acclaim" class="item-anchor">Client acclaim</a>
+              </li>
+
+              <li class="menu-item">
+                <a href="about.html#team" class="item-anchor">Our team</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-6">
+          <div class="footer-menu footer-menu-003">
+            <h5 class="widget-title mb-4">Help</h5>
+            <ul class="menu-list list-unstyled fs-6">
+              <li class="menu-item">
+                <a href="faq.html" class="item-anchor">FAQ</a>
+              </li>
+              <li class="menu-item">
+                <a href="contact.html" class="item-anchor">Contact</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="footer-menu footer-menu-004 border-animation-left">
+            <h5 class="widget-title mb-4">Contact us</h5>
+            <p>
+              <a href="mailto:leader20160812@gmail.com" class="item-anchor">leader20160812@gmail.com</a>
+            </p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-top py-4">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 text-start text-md-center">
+            <p>Copyright © 2023 Leader Hill Technology Limited. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/SmoothScroll.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
